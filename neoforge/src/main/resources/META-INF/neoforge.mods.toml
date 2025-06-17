@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/FifthTundraG/Fommands/issues"
+license = "GPLv3"
+
+[[mods]]
+modId = "fommands"
+version = "${version}"
+displayName = "Fommands"
+authors = "FifthTundraG"
+description = '''
+TBD
+'''
+#logoFile = ""
+
+[[dependencies.fommands]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.5,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[dependencies.fommands]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.5,)"
+ordering = "NONE"
+side = "SERVER"
+
+[[mixins]]
+config = "fommands.mixins.json"

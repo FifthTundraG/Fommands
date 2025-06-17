@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fommands",
+  "version": "${version}",
+  "name": "Fommands",
+  "description": "TBD",
+  "authors": [
+    "FifthTundraG"
+  ],
+  "contact": {
+    "homepage": "https://fifthtundrag.github.io",
+    "sources": "https://github.com/FifthTundraG/Fommands"
+  },
+  "license": "GPLv3",
+  "icon": "assets/fommands/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.fifthtundrag.fommands.fabric.FommandsFabric"
+    ]
+  },
+  "mixins": [
+    "fommands.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.5",
+    "java": ">=21"
+  }
+}
