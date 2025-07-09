@@ -1,0 +1,4 @@
+{
+  "commands.velocity.success.single": "Set velocity for %s",
+  "commands.velocity.success.multiple": "Set velocity for %d entities"
+}
